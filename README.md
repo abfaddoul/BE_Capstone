@@ -38,6 +38,23 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
+## Testing the Application
+
+### Option 1: Command-Line Interface (Recommended)
+Use the interactive CLI tool to test core functionality:
+```bash
+python cli_test.py
+```
+
+### Option 2: Automated Test Script
+Run the automated test suite:
+```bash
+python test_api.py
+```
+
+### Option 3: Manual API Testing
+Start the server and test endpoints manually using the API documentation in `API_DOCUMENTATION.md`
+
 ## API Endpoints
 
 - `/api/users/` - User management
